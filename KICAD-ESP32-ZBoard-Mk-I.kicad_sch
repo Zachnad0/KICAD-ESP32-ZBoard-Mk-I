@@ -988,24 +988,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.334 0)
+			(property "Reference" "J1"
+				(at -3.81 8.255 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Barrel_Jack_MountingPin"
-				(at 1.27 -6.35 0)
+			(property "Value" "DC_Jack"
+				(at -1.27 5.715 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connector_BarrelJack:BarrelJack_Horizontal"
 				(at 1.27 -1.016 0)
 				(effects
 					(font
@@ -1024,6 +1023,15 @@
 				)
 			)
 			(property "Description" "DC Barrel Jack with a mounting pin"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part #" "C720557 "
 				(at 0 0 0)
 				(effects
 					(font
@@ -1153,7 +1161,7 @@
 							)
 						)
 					)
-					(number "MP"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -13505,7 +13513,7 @@
 				(hide yes)
 			)
 		)
-		(pin "MP"
+		(pin "3"
 			(uuid "42275303-c46b-4c11-a88f-cc5ad88af38f")
 		)
 		(pin "2"
