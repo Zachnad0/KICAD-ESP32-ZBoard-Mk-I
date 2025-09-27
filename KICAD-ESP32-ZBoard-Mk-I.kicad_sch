@@ -10396,6 +10396,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "n/a"
+			(at 17.78 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "160744c4-66df-4513-b1fb-9af01f3578dd")
 		)
